@@ -11,12 +11,16 @@ With the correct CSS colors, webpages can be aesthetically pleasing to readers.
     -   The  `linear-gradient` function gives you control over the `direction`and `transition` along a degree line, and which colors are used.
     -   The syntax is `linear-gradient(gradientDirection, color1, color2, ...);` and  `gradientDirection` is the direction of the line used for the transition  while `color1` and `color2` are color arguments (it can be any coloring method).
     - `Color-stops` allow you to fine-tune where colors are positioned along the gradient line. Either `px` or `percentages` units can be used in this case after the color.
--   How to blur elements with `Opacity` or the using `alpha` channel:
+-   How to `blur` elements with `Opacity` or the using `alpha` channel:
     -   `Opacity` is how opaque(transparent) an element is.
     -   This can be controlled with `values` ranging from `0`(0%) to `1.0`(100%) (_e.g. 50% transparency would equal to `opacity: 0.5;`_)
-    -   The `Alpha` channel is added at the of a `color method` to replace the `opacity`
-    - This can be done with an `a` for  `rgb` and `hsl`(_e.g. `rgba(.,.,.,0.5)`/`hsla(.,.,.,0.5)` for 50% `opacity`_) or `numbers(0-100)` to `hex`. 
--   How to Add `Shadow` to elements with `box-shadow` property  
+    -   The `Alpha` channel is added at the end of a `color method` to replace the `opacity`
+    - This can be done with an `a` for  `rgb` and `hsl`(_e.g. `rgba(.,.,.,0.5)`/`hsla(.,.,.,0.5)` for 50% `opacity`_) or `hex code` to `hex`. 
+-   How to Add `Shadow` to elements with `box-shadow` property:  
+    -   Adding shadows around an element is done with the `box-shadow`. And the syntax is  _`box-shadow: offsetX offsetY color;`_
+    -   `Positive values`, like `5px`, move the `shadows` to the right while `negative ones`, like `-5px`, moves it to the left
+    -   Sharp edges can be removed with the `blurRadius` value. And the syntax for this is `box-shadow: X Y blurRadius color;`.
+    -   And the radius can be expanded with the `spreadRadius` value. This can be added in front of the `blurRadius`.
 
 > ## Reference
 Click [Learn CSS Colors by Building a Set of Colored Markers, Completed](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-1) to follow along
