@@ -2,8 +2,8 @@
 In here I Learned HTML by building a Cat Photo App. This repository is the result of the entire course.
 
 > ## Objective:
-- Understanding elements and it's types 
-- Knowing attributes and how to use them
+- Understanding `Elements` and it's `Types` 
+- Knowing `Attributes` and where to use them
 - Providing document information with `Metadata`
 - Organizing a Document `Semantically`
 - Structuring a document using `HTML5`
