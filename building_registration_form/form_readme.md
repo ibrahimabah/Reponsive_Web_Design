@@ -4,9 +4,12 @@ Forms allow you to collect information about who visits your webpage. You can co
 
 > ## Objective
 - How to structure a `form`
+    - creating `form` with the `form element`
     - adding containers to store information using the `input` methods
+    - 
 - How to follow `accessibility's best practices`
-
+    - Linking `input elements` with `id attributes`
+    -  
 
 
 
