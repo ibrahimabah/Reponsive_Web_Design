@@ -6,10 +6,10 @@ Forms allow you to collect information about who visits your webpage. You can co
 - How to structure a `form`
     - creating `form` with the `form element`
     - adding containers to store information using the `input` methods
-    - 
+    - adding an area to input large amount of text using the `textarea` element
 - How to follow `accessibility's best practices`
     - Linking `input elements` with `id attributes`
-    -  
+    -  Providing submittable elements with a `name` attribute
 
 
 
