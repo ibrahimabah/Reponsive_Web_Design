@@ -11,6 +11,9 @@ Forms allow you to collect information about who visits your webpage. You can co
     - Linking `input elements` with `id attributes`
     - Working with `labels`  
     -  Providing submittable elements with a `name` attribute
+- And other CSS styles
+    - Targeting a specific type of element  using the `CSS pseudo-class` 
+    - 
 
 
 
