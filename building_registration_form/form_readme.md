@@ -13,7 +13,7 @@ Forms allow you to collect information about who visits your webpage. You can co
     -  Providing submittable elements with a `name` attribute
 - And other CSS styles
     - Targeting a specific type of element  using the `CSS pseudo-class` 
-    - 
+    - Styling with an `attribute selector` like `input[type="submit"]` to style a _submit button_
 
 
 
