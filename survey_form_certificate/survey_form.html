@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+
+    <!--main-->
+    <div id="form">
+        <p id="description">We love to hear your feedback</p>
+
+        <!--form-->
+        <form id="survey-form" action="">
+        <!--inputs-->    
+        <div class="main-div">
+            <div class="labels">
+                <label id="name-label" for="name">*Name:</label>
+            </div>
+            <div class="right-div">
+                <input class="input" id="name" type="text" name="name" required placeholder="Enter your name">
+            </div>
+        </div>    
+        <div class="main-div">
+            <div class="labels">
+                <label id="email-label" for="email">*Email:</label>
+            </div>
+            <div class="right-div">
+                <input class="input" id="email" type="email" name="email" required placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="labels">
+                <label id="number-label" for="number">*Number:</label>
+            </div>
+            <div class="right-div">
+                <input class="input" id="number" type="number" name="number" min="1" max="130" required placeholder="Enter your Age">
+            </div>
+        </div>
+        
+        <!--role-->
+        <div class="main-div">
+            <div class="labels">
+                <label for="">Your current role</label>
+            </div>
+            <div class="right-div">
+                <select id="dropdown" name="dropdown" id="dropdown">
+                    <option value="">Student</option>
+                    <option value="">Freelancer</option>
+                    <option value="">Entrepreneur</option>
+                </select>
+            </div>
+        </div>
+
+        <!--recommendation-->
+        <div class="main-div">
+            <div class="labels">
+                <label for="">Your recommendation to freeCodeCamp:</label>
+            </div>
+            <div class="right-div">
+                <ul>
+                    <li class="radio-btn"><input name="radio-btn" type="radio" value="definite">Definitely</li>
+                    <li class="radio-btn"><input name="radio-btn" type="radio" value="maybe">Maybe</li>
+                    <li class="radio-btn" value="3"><input name="radio-btn" type="radio" value="unsure">Not sure</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--improvements-->
+        <div class="main-div">
+            <div class="labels">
+                <label for="">Things to improve on:</label>
+            </div>
+            <div class="right-div">
+                <ul>
+                    <li class="check-btn"><input value="1" type="checkbox">Courses</li>
+                    <li class="check-btn"><input value="2" type="checkbox">Projects</li>
+                    <li class="check-btn"><input value="3" type="checkbox">Challenges</li>
+                    <li class="check-btn"><input value="4" type="checkbox">Forum</li>
+                    <li class="check-btn"><input value="5" type="checkbox">Videos</li>
+                    <li class="check-btn"><input value="6" type="checkbox">Meetups</li>
+                </ul>
+            </div>    
+        </div>
+
+        <!--comments-->
+        <div class="main-div">
+            <div class="labels">
+                <label for="">Any comments or suggestions?</label>
+            </div>
+            <div class="right-div">
+                <textarea name="" id="comments" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
+            </div>
+        </div>
+
+        <button id="submit">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
