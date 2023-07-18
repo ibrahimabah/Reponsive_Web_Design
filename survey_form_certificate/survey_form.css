@@ -1,0 +1,81 @@
+html, body{
+    background: #768ae5;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;;
+    color: rgb(198, 204, 209);
+}
+
+#form{
+    background: #3e44ba;
+    margin: 0 auto;
+    border-radius: 3px;
+    width: 75%;
+    padding: 10px;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;   
+}
+
+.right-div {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.input{
+    background-color: rgb(198, 204, 209);
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #768ae5;
+    border-radius: 3px;
+}
+
+#dropdown {
+    background-color: rgb(198, 204, 209);
+    height: 30px;
+    width: 210px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #768ae5;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.radio-btn, .check-btn{
+    position: relative;
+    left: -50px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#comments {
+    background-color: rgb(198, 204, 209);
+    border-radius: 3px;
+}
+
+#submit{
+    background-color: #227034;
+    height: 30px;
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #768ae5;
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(198, 204, 209);
+}
+
+#submit:hover{
+    background-color: rgb(198, 204, 209);
+    color: #3e44ba;
+}
