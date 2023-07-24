@@ -6,10 +6,18 @@ To understand the **box model** I will build an Art piece called the `Rothko Pai
 
 > ## Objective
 Every HTML element is treated as a box with four areas:
-- One: Margin
+- **`One`**: **Border** 
     - Which is the area outside of the box, and can be used to control the space between other boxes or elements
-- Two: Border
-- Three: Padding
-- Four: Content
+- **`Two`**: **Border** 
+    - This is the space between padding and the margin
+- **`Three`**: **Padding**
+    - Which is the space between the content and the border
+- **`Four`**: **Content**
+    - This is elements like a `paragraph` filled with content
 
 > ### Reference
+Click [Learn the CSS Box Model by Building a Rothko Painting
+index.htmlEditor
+](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-1) to follow along
+
+Live Preview | []()
