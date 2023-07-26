@@ -20,4 +20,5 @@ Click [Learn the CSS Box Model by Building a Rothko Painting
 index.htmlEditor
 ](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-1) to follow along
 
-Live Preview | []()
+Live Preview | [Rothko Painting](https://ibrahimabah.github.io/rothko-painting/)
+- _live preview has a different background from an older project_
