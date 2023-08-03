@@ -3,9 +3,10 @@ body{
     font-family: sans-serif;
 }
 
-h1 {
+.el {
     border: 6px solid rgb(2, 2, 2);
     padding: 18px;
     margin: auto;
     text-align: center;
+    gap: 8px;
 }
